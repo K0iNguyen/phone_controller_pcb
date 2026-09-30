@@ -1,5 +1,6 @@
 (fp_lib_table
-  (version 7)
-  (lib (name "ECS_320_8_37B_CKY_TR")(type "KiCad")(uri "${KIPRJMOD}/ECS_320_8_37B_CKY_TR")(options "")(descr ""))
-  (lib (name "ABS05_32_768KHZ_9_T")(type "KiCad")(uri "${KIPRJMOD}/ABS05_32_768KHZ_9_T")(options "")(descr ""))
+	(version 7)
+	(lib (name "ECS_320_8_37B_CKY_TR") (type "KiCad") (uri "${KIPRJMOD}/ECS_320_8_37B_CKY_TR") (options "") (descr ""))
+	(lib (name "ABS05_32_768KHZ_9_T") (type "KiCad") (uri "${KIPRJMOD}/ABS05_32_768KHZ_9_T") (options "") (descr ""))
+	(lib (name "nRF52840-QFAA-F-R7") (type "KiCad") (uri "${KIPRJMOD}/nRF52840-QFAA-F-R7") (options "") (descr ""))
 )
