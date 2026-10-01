@@ -1,12 +1,12 @@
 (footprint "XTAL_ECS-160-9-37-CKM-TR"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0.024048 -1.707844 0)
 		(layer "F.SilkS")
-		(uuid "82ca404a-2c73-4bfa-8e10-ad106398b68f")
+		(uuid "5e594503-502c-4dd0-9050-e75b1255d9ba")
 		(effects
 			(font
 				(size 0.480856 0.480856)
@@ -17,7 +17,7 @@
 	(property "Value" "XTAL_ECS-160-9-37-CKM-TR"
 		(at 5.816274 1.695514 0)
 		(layer "F.Fab")
-		(uuid "262c75e9-49b6-479e-afc4-e46d788200b1")
+		(uuid "cf197e02-fdcb-4346-a22d-86bad2eff6c0")
 		(effects
 			(font
 				(size 0.480088 0.480088)
@@ -29,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6d14b6f5-d85e-42a5-bcfa-b20fbabba8a1")
+		(uuid "f1b7f963-5bf5-491f-afce-833e380eb2ec")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2e061f2a-6b76-4a66-8410-3cace308f0ea")
+		(uuid "cc339b7c-d1dd-4006-b94c-08fb662db8a8")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50,6 +50,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
 		(center -1.7 0.45)
 		(end -1.6 0.45)
@@ -59,7 +60,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "a076047d-e0ad-4650-97a2-cbcb6923ed83")
+		(uuid "38b17242-808e-4ad9-b3fc-a53f44a8b2e1")
 	)
 	(fp_line
 		(start -1.35 -1.15)
@@ -69,7 +70,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "4b59bc21-5846-4e18-b4d2-0d8f1e2aef71")
+		(uuid "aaa3fe81-c187-4c3e-98ce-d8593c92b195")
 	)
 	(fp_line
 		(start -1.35 1.15)
@@ -79,7 +80,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "f2f7fc8f-dc97-4b58-99dc-e8f2c654c575")
+		(uuid "a8b4320e-c253-4a51-973e-d5874580045d")
 	)
 	(fp_line
 		(start 1.35 -1.15)
@@ -89,7 +90,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "932ac1ee-8388-45db-9c4f-9091bbf8570b")
+		(uuid "21bec69d-edeb-4774-b00f-2f38ae4a3f6d")
 	)
 	(fp_line
 		(start 1.35 1.15)
@@ -99,7 +100,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "4b922d22-7122-4de4-87b3-11cb29dc2af2")
+		(uuid "5960fdfc-5d31-4810-b769-0596c6071232")
 	)
 	(fp_line
 		(start -1 -0.8)
@@ -109,7 +110,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "794cd1ff-a1ae-42fd-884f-e10a9fd24c97")
+		(uuid "2d547b71-43be-4a38-9a5d-ee7ee0678ce9")
 	)
 	(fp_line
 		(start -1 0.8)
@@ -119,7 +120,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "c6c4e964-1ad7-4f74-98f7-0a2022e29d6f")
+		(uuid "8a7b55b5-81ec-45ef-96f4-ea126c55e073")
 	)
 	(fp_line
 		(start 1 -0.8)
@@ -129,7 +130,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "0b9165b6-e755-4ac8-87be-1af226713df6")
+		(uuid "53a668c0-c7ca-480d-9ee4-ac37802c30f7")
 	)
 	(fp_line
 		(start 1 0.8)
@@ -139,7 +140,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "9f519c03-3d4e-4434-b082-b9091ed91cf4")
+		(uuid "0e209e1f-6ece-4806-a81e-0624b75dcc04")
 	)
 	(fp_circle
 		(center -1.7 0.45)
@@ -150,35 +151,35 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "6b8ca0c2-aedd-4ef6-88a1-5e5e767abe61")
+		(uuid "7bf097a8-1951-4618-9476-46a88d9fe944")
 	)
 	(pad "1" smd rect
 		(at -0.675 0.525)
 		(size 0.85 0.75)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "9c45ae7e-8d60-4cd0-a716-b45bb009810b")
+		(uuid "99550535-9314-4465-8b68-c0f2aa1bdd5b")
 	)
 	(pad "2" smd rect
 		(at 0.675 0.525)
 		(size 0.85 0.75)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "b94df9ca-64a3-4b9e-9565-c1bf4b5d2fca")
+		(uuid "6a4ced1e-d973-4f7f-8c7a-b13a913d2638")
 	)
 	(pad "3" smd rect
 		(at 0.675 -0.525)
 		(size 0.85 0.75)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "c0148578-b014-45e4-a757-688d06acac13")
+		(uuid "f6c42bd6-f9cb-49a7-ad2c-95dcbab16e5f")
 	)
 	(pad "4" smd rect
 		(at -0.675 -0.525)
 		(size 0.85 0.75)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "bc8f1b65-38e9-4914-b33c-143742b892b6")
+		(uuid "5f02ed68-748d-479c-8bad-2887ee4149c6")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/ECS_320_8_37B_CKY_TR/ECS-320-8-37B-CKY-TR.step"
