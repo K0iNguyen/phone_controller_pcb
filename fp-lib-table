@@ -4,5 +4,6 @@
 	(lib (name "ABS05_32_768KHZ_9_T") (type "KiCad") (uri "${KIPRJMOD}/ABS05_32_768KHZ_9_T") (options "") (descr ""))
 	(lib (name "nRF52840-QFAA-F-R7") (type "KiCad") (uri "${KIPRJMOD}/nRF52840-QFAA-F-R7") (options "") (descr ""))
 	(lib (name "59453_052110ECHLF") (type "KiCad") (uri "${KIPRJMOD}/59453_052110ECHLF") (options "") (descr ""))
-	(lib (name "footprints") (type "KiCad") (uri "${KIPRJMOD}/OS102011MA1QN1/footprints.pretty") (options "") (descr ""))
+	(lib (name "OS102011MA1QN1") (type "KiCad") (uri "${KIPRJMOD}/OS102011MA1QN1/footprints.pretty") (options "") (descr ""))
+	(lib (name "ANT_AMCA31-2R450G-S1F-T3_ABR") (type "KiCad") (uri "${KIPRJMOD}/ANT_AMCA31-2R450G-S1F-T3_ABR/footprints.pretty") (options "") (descr ""))
 )
